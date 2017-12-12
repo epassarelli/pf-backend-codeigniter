@@ -36,8 +36,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!--
 BODY TAG OPTIONS:
 =================
-Apply one or more of the following classes to get the
-desired effect
+Apply one or more of the following classes to get the desired effect
 |---------------------------------------------------------|
 | SKINS         | skin-blue                               |
 |               | skin-black                              |
@@ -71,7 +70,7 @@ desired effect
     <nav class="navbar navbar-static-top" role="navigation">
       <!-- Sidebar toggle button-->
       <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-        <span class="sr-only">Toggle navigation</span>
+        <span class="sr-only">Toggle navigacion</span>
       </a>
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
@@ -84,7 +83,7 @@ desired effect
               <span class="label label-success">4</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 4 messages</li>
+              <li class="header">Usted tiene 4 mensajes</li>
               <li>
                 <!-- inner menu: contains the messages -->
                 <ul class="menu">
@@ -92,22 +91,22 @@ desired effect
                     <a href="#">
                       <div class="pull-left">
                         <!-- User Image -->
-                        <img src="<?php echo base_url().'assets/templates/adminlte242/'; ?>dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                        <img src="<?php echo base_url().'assets/templates/adminlte242/'; ?>dist/img/user-160x160.jpg" class="img-circle" alt="User Image">
                       </div>
                       <!-- Message title and timestamp -->
                       <h4>
-                        Support Team
+                        Equipo de soporte
                         <small><i class="fa fa-clock-o"></i> 5 mins</small>
                       </h4>
                       <!-- The message -->
-                      <p>Why not buy a new awesome theme?</p>
+                      <p>Verifique el estado de los plugins</p>
                     </a>
                   </li>
                   <!-- end message -->
                 </ul>
                 <!-- /.menu -->
               </li>
-              <li class="footer"><a href="#">See All Messages</a></li>
+              <li class="footer"><a href="#">Ver todos los mensajes</a></li>
             </ul>
           </li>
           <!-- /.messages-menu -->
@@ -120,19 +119,19 @@ desired effect
               <span class="label label-warning">10</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 10 notifications</li>
+              <li class="header">Usted tiene 10 notificaciones</li>
               <li>
                 <!-- Inner Menu: contains the notifications -->
                 <ul class="menu">
                   <li><!-- start notification -->
                     <a href="#">
-                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                      <i class="fa fa-users text-aqua"></i> 5 nuevos miembros hoy
                     </a>
                   </li>
                   <!-- end notification -->
                 </ul>
               </li>
-              <li class="footer"><a href="#">View all</a></li>
+              <li class="footer"><a href="#">Ver todos</a></li>
             </ul>
           </li>
           <!-- Tasks Menu -->
@@ -143,7 +142,7 @@ desired effect
               <span class="label label-danger">9</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 9 tasks</li>
+              <li class="header">Usted tiene 9 tareas</li>
               <li>
                 <!-- Inner menu: contains the tasks -->
                 <ul class="menu">
@@ -151,7 +150,7 @@ desired effect
                     <a href="#">
                       <!-- Task title and progress text -->
                       <h3>
-                        Design some buttons
+                        Armar el Layout
                         <small class="pull-right">20%</small>
                       </h3>
                       <!-- The progress bar -->
@@ -159,7 +158,7 @@ desired effect
                         <!-- Change the css width attribute to simulate progress -->
                         <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar"
                              aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">20% Complete</span>
+                          <span class="sr-only">20% Completo</span>
                         </div>
                       </div>
                     </a>
@@ -168,7 +167,7 @@ desired effect
                 </ul>
               </li>
               <li class="footer">
-                <a href="#">View all tasks</a>
+                <a href="#">Ver todas las tareas</a>
               </li>
             </ul>
           </li>
@@ -177,14 +176,14 @@ desired effect
             <!-- Menu Toggle Button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <!-- The user image in the navbar-->
-              <img src="<?php echo base_url().'assets/templates/adminlte242/'; ?>dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+              <img src="<?php echo base_url().'assets/templates/adminlte242/'; ?>dist/img/user-160x160.jpg" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
               <span class="hidden-xs">Administrador</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
               <li class="user-header">
-                <img src="<?php echo base_url().'assets/templates/adminlte242/'; ?>dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                <img src="<?php echo base_url().'assets/templates/adminlte242/'; ?>dist/img/user-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
                   Administrador - Web Developer
@@ -195,13 +194,13 @@ desired effect
               <li class="user-body">
                 <div class="row">
                   <div class="col-xs-4 text-center">
-                    <a href="#">Followers</a>
+                    <a href="#">Seguidores</a>
                   </div>
                   <div class="col-xs-4 text-center">
-                    <a href="#">Sales</a>
+                    <a href="#">Compras</a>
                   </div>
                   <div class="col-xs-4 text-center">
-                    <a href="#">Friends</a>
+                    <a href="#">Amigos</a>
                   </div>
                 </div>
                 <!-- /.row -->
@@ -209,7 +208,7 @@ desired effect
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                  <a href="#" class="btn btn-default btn-flat">Perfil</a>
                 </div>
                 <div class="pull-right">
                   <a href="<?php echo base_url();?>auth/logout" class="btn btn-default btn-flat">Salir</a>
@@ -225,6 +224,7 @@ desired effect
       </div>
     </nav>
   </header>
+
   <!-- Left side column. contains the logo and sidebar -->
   <aside class="main-sidebar">
 
@@ -234,7 +234,7 @@ desired effect
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="<?php echo base_url().'assets/templates/adminlte242/'; ?>dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+          <img src="<?php echo base_url().'assets/templates/adminlte242/'; ?>dist/img/user-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Administrador</p>
@@ -260,19 +260,17 @@ desired effect
         <li class="header">Administrar</li>
         <!-- Optionally, you can add icons to the links -->
         <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Paises</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Provincias</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Ciudades</span></a></li>
         <li><a href="#"><i class="fa fa-link"></i> <span>Interpretes</span></a></li>
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
+          <a href="#"><i class="fa fa-link"></i> <span>Parametricas</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#">Link in level 2</a></li>
-            <li><a href="#">Link in level 2</a></li>
+            <li><a href="#">Paises</a></li>
+            <li><a href="#">Provincias</a></li>
+            <li><a href="#">Ciudades</a></li>
           </ul>
         </li>
       </ul>
@@ -286,12 +284,12 @@ desired effect
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Page Header
-        <small>Optional description</small>
+        Encabezado
+        <small>Descripcion opcional</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-        <li class="active">Here</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Seccion actual</li>
       </ol>
     </section>
 
@@ -328,14 +326,14 @@ desired effect
     <div class="tab-content">
       <!-- Home tab content -->
       <div class="tab-pane active" id="control-sidebar-home-tab">
-        <h3 class="control-sidebar-heading">Recent Activity</h3>
+        <h3 class="control-sidebar-heading">Actividad reciente</h3>
         <ul class="control-sidebar-menu">
           <li>
             <a href="javascript:;">
               <i class="menu-icon fa fa-birthday-cake bg-red"></i>
 
               <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
+                <h4 class="control-sidebar-subheading">Aniversario</h4>
 
                 <p>Will be 23 on April 24th</p>
               </div>
@@ -344,7 +342,7 @@ desired effect
         </ul>
         <!-- /.control-sidebar-menu -->
 
-        <h3 class="control-sidebar-heading">Tasks Progress</h3>
+        <h3 class="control-sidebar-heading">Progreso de Tareas</h3>
         <ul class="control-sidebar-menu">
           <li>
             <a href="javascript:;">
@@ -406,7 +404,6 @@ desired effect
 <script src="<?php echo base_url().'assets/templates/adminlte242/'; ?>dist/js/adminlte.min.js"></script>
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
-     Both of these plugins are recommended to enhance the
-     user experience. -->
+     Both of these plugins are recommended to enhance the user experience. -->
 </body>
 </html>

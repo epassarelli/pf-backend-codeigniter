@@ -120,16 +120,16 @@
         <!-- /.col -->
       </div>
     </form>
-
+    <!--
     <div class="social-auth-links text-center">
       <p>- O -</p>
       <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Ingresar con Facebook</a>
       <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Ingresar con Google+</a>
     </div>
-    <!-- /.social-auth-links -->
+     /.social-auth-links -->
 
-    <?php echo anchor('/auth/forgot_password/', 'Recuperar Password'); ?><br>
-    <?php if ($this->config->item('allow_registration', 'tank_auth')) echo anchor('/auth/register/', 'Registrarme'); ?>
+    <?php //echo anchor('/auth/forgot_password/', 'Recuperar Password'); ?><br>
+    <?php //if ($this->config->item('allow_registration', 'tank_auth')) echo anchor('/auth/register/', 'Registrarme'); ?>
 
   </div>
   <!-- /.login-box-body -->
