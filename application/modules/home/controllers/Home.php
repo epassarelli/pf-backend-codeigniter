@@ -20,7 +20,7 @@ class Home extends MX_Controller {
 						);	
 
 		$data['view']	= "home_view";
-		$this->load->view('layout', $data);
+		$this->load->view('back/layout_back', $data);
 	}
 
 

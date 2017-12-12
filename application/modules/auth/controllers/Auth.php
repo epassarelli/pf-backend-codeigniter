@@ -100,15 +100,7 @@ class Auth extends MX_Controller
 					$data['captcha_html'] = $this->_create_captcha();
 				}
 			}
-			//$this->load->view('auth/login_form_nav', $data);
-			$data['title'] 			= "PF";
-			$data['description']	= "PF";
-			$data['keywords']		= "PF";	
-			$data['view'] = 'auth/login_form';
-			$data['sidebar_mid']    = 'auth_sidebar_mid_view';
-			$data['sidebar']       	= 'auth_sidebar_view';
-			$this->load->view('layout', $data);
-			
+			$this->load->view('auth/login_form', $data);			
 		}
 	}
 
