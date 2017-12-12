@@ -14,10 +14,9 @@ class Interpretes extends MX_Controller {
 
 
 function index(){
-		
+	$data['filas'] 	= $this->Interpretes_model->get_all();		
 	$data['view']   = 'interpretes_home_view';
-	$this->load->view('back/layout.php', $data);
-
+	$this->load->view('back/layout_back.php', $data);
 }
 
 

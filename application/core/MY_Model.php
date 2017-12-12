@@ -10,9 +10,8 @@ function __construct() {
 
 ##########################################################
   function get_all(){
-    $query = $this->db->get($this->table);
-    
-  return $query->result();
+    $query = $this->db->get($this->table);   
+    return $query->result();
   }
 
 ##########################################################

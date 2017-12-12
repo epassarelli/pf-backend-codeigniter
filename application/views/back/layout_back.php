@@ -259,8 +259,8 @@ Apply one or more of the following classes to get the desired effect
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">Administrar</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Interpretes</span></a></li>
+        <li class="active"><a href="<?php echo base_url(); ?>"><i class="fa fa-link"></i> <span>Dashboard</span></a></li>
+        <li><a href="<?php echo base_url(); ?>interpretes"><i class="fa fa-link"></i> <span>Interpretes</span></a></li>
         <li class="treeview">
           <a href="#"><i class="fa fa-link"></i> <span>Parametricas</span>
             <span class="pull-right-container">
@@ -405,5 +405,20 @@ Apply one or more of the following classes to get the desired effect
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the user experience. -->
+<!-- DataTables -->
+<script src="<?php echo base_url().'assets/templates/adminlte242/'; ?>bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="<?php echo base_url().'assets/templates/adminlte242/'; ?>bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<script>
+  $(function () {
+    $('#example2').DataTable({
+      'paging'      : true,
+      'lengthChange': true,
+      'searching'   : true,
+      'ordering'    : true,
+      'info'        : true,
+      'autoWidth'   : true
+    })
+  })
+</script>     
 </body>
 </html>
