@@ -261,18 +261,10 @@ Apply one or more of the following classes to get the desired effect
         <!-- Optionally, you can add icons to the links -->
         <li class="active"><a href="<?php echo base_url(); ?>"><i class="fa fa-link"></i> <span>Dashboard</span></a></li>
         <li><a href="<?php echo base_url(); ?>interpretes"><i class="fa fa-link"></i> <span>Interpretes</span></a></li>
-        <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Parametricas</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="#">Paises</a></li>
-            <li><a href="#">Provincias</a></li>
-            <li><a href="#">Ciudades</a></li>
-          </ul>
-        </li>
+        <li><a href="<?php echo base_url(); ?>paises"><i class="fa fa-link"></i> <span>Paises</span></a></li>
+        <li><a href="<?php echo base_url(); ?>provincias"><i class="fa fa-link"></i> <span>Provincias</span></a></li>
+        <li><a href="<?php echo base_url(); ?>localidades"><i class="fa fa-link"></i> <span>Localidades</span></a></li>
+        
       </ul>
       <!-- /.sidebar-menu -->
     </section>

@@ -1,7 +1,7 @@
 <div class="box">
 
 	<div class="box-header">
-	  <h3 class="box-title">Interpretes</h3>
+	  <h3 class="box-title">Paises</h3>
 	</div>
 
 	<!-- /.box-header -->
@@ -11,7 +11,6 @@
 		    <thead>
 		    <tr>
 		      <th>Nombre</th>
-		      <th>Biografia</th>
 		      <th>Estado</th>
 		      <th>Acciones</th>
 		    </tr>
@@ -21,11 +20,9 @@
 	    	<?php foreach ($filas as $fila) {
 	    		# code...
 				echo "<tr>";
-	    		echo "<td>".$fila->inte_nombre."</td>";
-	    		echo "<td>".substr($fila->inte_biografia, 0, 255)."</td>";
-	    		
+	    		echo "<td>".$fila->nombre."</td>";	    		
 	    		echo "<td>";
-	    		if($fila->inte_habilitado == 0){
+	    		if($fila->habilitado == 0){
 	    			echo "<span class='btn btn-danger btn-xs'>Inactivo</span>";
 	    		}else{
 	    			echo "<span class='btn btn-success btn-xs'>Activo</span>";
